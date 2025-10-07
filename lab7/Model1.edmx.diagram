@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="51f480b8ab51449a83a5c955053eba2b" Name="Diagram1">
+        <EntityTypeShape EntityType="TradeModel.Measure" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.Order" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.OrderProduct" Width="1.5" PointX="5.25" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.PickupPoint" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.Role" Width="1.5" PointX="1.5" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.Supplier" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.User" Width="1.5" PointX="0.75" PointY="11.625" IsExpanded="true" />
+        <AssociationConnector Association="TradeModel.FK_Product_Measure" ManuallyRouted="false" />
+        <AssociationConnector Association="TradeModel.FK__OrderProd__Order__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="TradeModel.FK_Order_PickupPoint" ManuallyRouted="false" />
+        <AssociationConnector Association="TradeModel.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="TradeModel.FK__OrderProd__Produ__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="TradeModel.FK_Product_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="TradeModel.FK__User__UserRole__4AB81AF0" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

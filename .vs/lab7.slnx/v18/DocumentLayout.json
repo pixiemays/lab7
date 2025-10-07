@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tea\\Desktop\\Study\\lab7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{446F8022-66F7-48D4-B105-B85C18682CFD}|lab7\\lab7.csproj|c:\\users\\tea\\desktop\\study\\lab7\\lab7\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{446F8022-66F7-48D4-B105-B85C18682CFD}|lab7\\lab7.csproj|solutionrelative:lab7\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{446F8022-66F7-48D4-B105-B85C18682CFD}|lab7\\lab7.csproj|c:\\users\\tea\\desktop\\study\\lab7\\lab7\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{446F8022-66F7-48D4-B105-B85C18682CFD}|lab7\\lab7.csproj|solutionrelative:lab7\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\tea\\Desktop\\Study\\lab7\\lab7\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "lab7\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\tea\\Desktop\\Study\\lab7\\lab7\\MainWindow.xaml",
+              "RelativeToolTip": "lab7\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-04T05:22:56.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tea\\Desktop\\Study\\lab7\\lab7\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "lab7\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\tea\\Desktop\\Study\\lab7\\lab7\\MainWindow.xaml.cs",
+              "RelativeToolTip": "lab7\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABoAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T05:22:56.749Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
