@@ -32,6 +32,13 @@ namespace lab7
         public string ProductStatus { get; set; }
         public Nullable<int> ProductSupplier { get; set; }
         public Nullable<int> ProductMeasure { get; set; }
+        public string ProductMeasureText
+        {
+            get
+            {
+                return ProductMeasure == 1 ? "В наличии" : "Не в наличии";
+            }
+        }
     
         public virtual Measure Measure { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

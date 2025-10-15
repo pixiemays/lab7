@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:lab7"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="650" Width="575">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <ListView Name="ProductsList" ScrollViewer.VerticalScrollBarVisibility="Visible" Height="450" Margin="10">
+            <ListView Name="ProductsList" ScrollViewer.VerticalScrollBarVisibility="Visible" Height="650" Margin="10" HorizontalAlignment="Center">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <Border BorderBrush="Black" BorderThickness="1" Margin="5" Padding="5">
@@ -33,7 +33,7 @@
                                 <TextBlock Text="{Binding ProductCost}" />
                             </StackPanel>
                             <Border BorderBrush="Gray" BorderThickness="1" Margin="5" Grid.Column="2">
-                                <TextBlock Text="{Binding ProductMeasure}" 
+                                <TextBlock Text="{Binding ProductMeasureText}" 
                                    VerticalAlignment="Center" 
                                    HorizontalAlignment="Center" 
                                    TextWrapping="Wrap"/>
